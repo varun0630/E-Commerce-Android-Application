@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#BBAACC"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="260dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/star1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="ratingSystem"
+                app:srcCompat="@drawable/starunshaded" />
+
+            <ImageView
+                android:id="@+id/star2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="ratingSystem"
+                app:srcCompat="@drawable/starunshaded" />
+
+            <ImageView
+                android:id="@+id/star3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="ratingSystem"
+                app:srcCompat="@drawable/starunshaded" />
+
+            <ImageView
+                android:id="@+id/star4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="ratingSystem"
+                app:srcCompat="@drawable/starunshaded" />
+
+            <ImageView
+                android:id="@+id/star5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="ratingSystem"
+                app:srcCompat="@drawable/starunshaded" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/rateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.5dp"
+            android:layout_marginTop="350dp"
+            app:srcCompat="@drawable/ratebtn" />
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-390dp"
+            android:layout_marginRight="250dp"
+            app:srcCompat="@drawable/backbtn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/avgRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:text="3.7/5"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ratingStarImg"
+            android:layout_width="260dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="-31dp"
+            android:scrollbarSize="4dp"
+            app:srcCompat="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/infoImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/appleimage" />
+
+        <Button
+            android:id="@+id/itemPrice"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-10dp"
+            android:backgroundTint="#F004FF"
+            android:text="Rs 25" />
+
+        <TextView
+            android:id="@+id/noRatingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="-230dp"
+            android:text="No Rating Registered"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

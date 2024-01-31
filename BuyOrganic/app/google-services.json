@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728359973102",
+    "project_id": "buyorgan",
+    "storage_bucket": "buyorgan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728359973102:android:7b6e8bd90828f140ccc3ff",
+        "android_client_info": {
+          "package_name": "com.example.BuyOrganic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728359973102-t3jcku5731tctsbbm88m8g3d8bf1f7k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdKcjMF3hRQ6o55D2nTx-MAq5QPZeaQms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728359973102-t3jcku5731tctsbbm88m8g3d8bf1f7k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
